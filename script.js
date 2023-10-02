@@ -15,12 +15,18 @@ dp:"picp.png",story:"pic2.jpg"
             dp:"pro.png",story:"pro1.JPG"
             
             },
+            {
+                dp:"train.jpg",story:"train.jpg"
+                
+                },
 ]
-arr.forEach(function(elem){
+var clutter=""
+arr.forEach(function(elem,idx){
+clutter += `<div class="story">
 
-    console.log(elem.dp)
-}
-    
-    
-    
-    )
+<img src="${elem.dp}" alt="">
+
+ </div>`
+  
+})
+document.querySelector("#views-panel").innerHTML=clutter
