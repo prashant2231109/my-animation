@@ -29,20 +29,30 @@ border: 3.5px solid rgb(0, 0, 0);
 }
  
   
-#views{
+#views-panel{
 height:110px;
 width:100%;
 border-bottom:1px solid rosybrown ;
 padding:12px;
+white-space: nowrap ;
+overflow-x: auto;
+overflow-y: hidden;
+
 }
 .story{
-    border: 3px solid red ;
+    border: 3px solid red;
 height:80px;
 width:80px;
 border-radius: 50%;
-
+overflow: hidden;
+display: inline-block;
 }
 
 
+.story img{
+    height: 100%;
+width: 100%;
+object-fit:cover;
 
 
+}
