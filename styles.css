@@ -21,8 +21,8 @@ justify-content: center;
 }
 #card{
 
-height:450px;
-width:350px;
+height:470px;
+width:345px;
 background-color: white;
 border-radius: 10px;
 border: 3.5px solid rgb(0, 0, 0);
@@ -30,11 +30,16 @@ border: 3.5px solid rgb(0, 0, 0);
  
   
 #views{
-height:100px;
+height:110px;
 width:100%;
-background-color: black;
-
-
+border-bottom:1px solid rosybrown ;
+padding:12px;
+}
+.story{
+    border: 3px solid red ;
+height:80px;
+width:80px;
+border-radius: 50%;
 
 }
 
