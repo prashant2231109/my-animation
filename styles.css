@@ -26,6 +26,7 @@ width:345px;
 background-color: white;
 border-radius: 10px;
 border: 3.5px solid rgb(0, 0, 0);
+position: relative;
 }
  
   
@@ -37,6 +38,7 @@ padding:12px;
 white-space: nowrap ;
 overflow-x: auto;
 overflow-y: hidden;
+margin-right: 5px;
 
 }
 #views-panel::-webkit-scrollbar{
@@ -51,6 +53,7 @@ width:80px;
 border-radius: 50%;
 overflow: hidden;
 display: inline-block;
+margin-right: 6px;
 }
 
 
@@ -58,6 +61,17 @@ display: inline-block;
     height: 100%;
 width: 100%;
 object-fit:cover;
+
+
+}
+#full-screen{
+
+height:100%;
+width:100%;
+background-size: cover;
+background-position:center ;
+position: absolute;
+display:none;
 
 
 }
