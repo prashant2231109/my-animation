@@ -38,4 +38,10 @@ document.querySelector("#full-screen").style.display="block"
 
 document.querySelector("#full-screen").style.backgroundImage= `url(${arr[dets.target.id].story})`
 
+setTimeout(function(){
+
+    document.querySelector("#full-screen").style.display="none"
+
+},3000)
+
 });
