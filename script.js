@@ -4,11 +4,11 @@ dp:"picp.png",story:"pic2.jpg"
 
 },
 {
-    dp:"pic3.png",story:"pic3.pg"
+    dp:"pic3.png",story:"srk.avif"
     
     },
     {
-        dp:"srk.avif",story:"srk.jpg"
+        dp:"srk.avif",story:"srk2.jpg"
         
         },
         {
@@ -29,7 +29,7 @@ clutter += `<div class="story">
 
  </div>`
   
-})
+});
 document.querySelector("#views-panel").innerHTML=clutter
 
 views.addEventListener("click",function(dets){
@@ -38,4 +38,4 @@ document.querySelector("#full-screen").style.display="block"
 
 document.querySelector("#full-screen").style.backgroundImage= `url(${arr[dets.target.id].story})`
 
-})
+});

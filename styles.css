@@ -13,7 +13,7 @@ html,body{
 }
 
 body{
-background-color: rgb(0, 206, 255);
+background-image: url("pras.avif");
 
 display: flex;
 align-items: center;
@@ -25,7 +25,7 @@ height:470px;
 width:345px;
 background-color: white;
 border-radius: 10px;
-border: 3.5px solid rgb(0, 0, 0);
+border: 5px solid rgb(29, 218, 32);
 position: relative;
 }
  
@@ -73,5 +73,13 @@ background-position:center ;
 position: absolute;
 display:none;
 
+
+}
+.insta{
+
+padding-left: 90px;
+margin-top: 10px;
+font-style: italic;
+color: rgb(111, 36, 233);
 
 }
